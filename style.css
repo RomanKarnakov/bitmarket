@@ -103,7 +103,7 @@ footer {
 .soc {
    color: black;
    position: fixed;
-   border: 5px double grey;
+   border: 5px solid #133aac;
    border-radius: 15px;
    top: 250px;
    right: 10px;
@@ -147,14 +147,6 @@ footer {
     top: 3px;
 }
 
-.adres {
-    position: absolute;
-    height: 40px;
-    width: 60px;
-    left: 0px;
-    bottom: 20px;
-}
-
 .contacts {
     position: relative;
 }
@@ -172,6 +164,8 @@ footer {
 .article-but:hover {
     background-color: grey;
     color: #133aac;
+    border: 4px solid #133aac;
+    border-radius: 20px;
 }
 
 .nav-link:hover {
@@ -187,3 +181,15 @@ footer {
     border-radius: 25px;
     color: #133aac;
 }
+
+.social {
+    margin-top: 4px;
+}
+
+.soc:hover {
+    background-color: #133aac;
+    border-radius: 25px;
+    color: white;
+    border: 5px solid #36bbce;
+}
+
